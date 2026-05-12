@@ -18,9 +18,12 @@
           <h1 id="page-title">🚴 Road Bike Build Tracker</h1>
           <p id="page-subtitle" class="subtitle">LongTeng LTK266-D-SL | Size M 52cm</p>
         </div>
-        <div class="hero-chip" aria-label="Build target">
-          <span>Target</span>
-          <strong>UCI-adjacent 6.8–7.7kg</strong>
+        <div class="hero-actions">
+          <button id="settings-button" class="icon-button" type="button" aria-label="GitHub settings">⚙️</button>
+          <div class="hero-chip" aria-label="Build target">
+            <span>Target</span>
+            <strong>UCI-adjacent 6.8–7.7kg</strong>
+          </div>
         </div>
       </header>
 
@@ -60,7 +63,10 @@
               <p class="eyebrow">Inventory</p>
               <h2 id="parts-title">Parts List</h2>
             </div>
-            <p class="section-note">Tap a row for source, notes, and exact numbers.</p>
+            <div class="parts-actions">
+              <p class="section-note">Tap a row for source, notes, and exact numbers.</p>
+              <button id="add-category-button" class="secondary-button requires-token" type="button" hidden>+ Add category</button>
+            </div>
           </div>
           <div id="parts-list" class="parts-list"></div>
         </section>
@@ -80,7 +86,104 @@
       <footer>
         <span>Built for Oscar’s LongTeng project.</span>
         <span id="last-updated">Last updated: —</span>
+        <span id="last-saved">Last saved by you: —</span>
       </footer>
+    </div>
+
+    <div id="save-float" class="save-float" aria-live="polite">
+      <span id="dirty-count">0 changes</span>
+      <button id="save-button" class="primary-button" type="button">Save Changes</button>
+    </div>
+
+    <div id="toast" class="toast" hidden></div>
+
+    <div id="settings-modal" class="modal-backdrop" hidden>
+      <section class="modal" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+        <div class="modal-header">
+          <div>
+            <p class="eyebrow">Settings</p>
+            <h2 id="settings-title">GitHub Save Access</h2>
+          </div>
+          <button id="settings-close" class="icon-button" type="button" aria-label="Close settings">×</button>
+        </div>
+        <label class="form-field">
+          <span>GitHub PAT</span>
+          <div class="token-row">
+            <input id="github-token-input" type="password" autocomplete="off" placeholder="ghp_…" />
+            <button id="token-toggle" class="secondary-button" type="button">Show</button>
+          </div>
+        </label>
+        <p class="section-note">Your token is stored locally in this browser only. The dashboard is read-only until a token is set.</p>
+        <div class="modal-actions">
+          <button id="settings-save" class="primary-button" type="button">Save settings</button>
+        </div>
+      </section>
+    </div>
+
+    <div id="add-part-modal" class="modal-backdrop" hidden>
+      <section class="modal" role="dialog" aria-modal="true" aria-labelledby="add-part-title">
+        <div class="modal-header">
+          <div>
+            <p class="eyebrow">New part</p>
+            <h2 id="add-part-title">Add part</h2>
+          </div>
+        </div>
+        <form id="add-part-form" class="part-form">
+          <input id="add-part-category-index" type="hidden" />
+          <label class="form-field">
+            <span>Component name *</span>
+            <input id="add-part-component" name="component" type="text" required />
+          </label>
+          <label class="form-field">
+            <span>Product</span>
+            <input name="product" type="text" />
+          </label>
+          <label class="form-field">
+            <span>Source</span>
+            <input name="source" type="text" />
+          </label>
+          <div class="form-grid">
+            <label class="form-field">
+              <span>Estimated weight (g)</span>
+              <input name="estimatedWeight" type="number" step="any" />
+            </label>
+            <label class="form-field">
+              <span>Actual weight (g)</span>
+              <input name="actualWeight" type="number" step="any" />
+            </label>
+            <label class="form-field">
+              <span>Price low ($)</span>
+              <input name="priceLow" type="number" step="any" />
+            </label>
+            <label class="form-field">
+              <span>Price high ($)</span>
+              <input name="priceHigh" type="number" step="any" />
+            </label>
+            <label class="form-field">
+              <span>Actual price ($)</span>
+              <input name="actualPrice" type="number" step="any" />
+            </label>
+            <label class="form-field">
+              <span>Status</span>
+              <select id="add-part-status" name="status">
+                <option value="decided">✅ Decided</option>
+                <option value="acquired">💰 Acquired</option>
+                <option value="ordered">📦 Ordered</option>
+                <option value="researching">🔍 Researching</option>
+                <option value="needed">❌ Needed</option>
+              </select>
+            </label>
+          </div>
+          <label class="form-field">
+            <span>Notes</span>
+            <textarea name="notes" rows="3"></textarea>
+          </label>
+          <div class="modal-actions">
+            <button id="add-part-cancel" class="secondary-button" type="button">Cancel</button>
+            <button class="primary-button" type="submit">Add part</button>
+          </div>
+        </form>
+      </section>
     </div>
 
     <script src="app.js" defer></script>
