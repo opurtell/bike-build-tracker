@@ -1,0 +1,496 @@
+{
+  "meta": {
+    "title": "Road Bike Build Tracker",
+    "subtitle": "LongTeng LTK266-D-SL | Size M 52cm",
+    "lastUpdated": "2026-05-12"
+  },
+  "budget": {
+    "totalLow": 3300,
+    "totalHigh": 3850,
+    "currency": "AUD"
+  },
+  "targetWeight": {
+    "min": 6800,
+    "max": 7700,
+    "unit": "g"
+  },
+  "categories": [
+    {
+      "name": "Frameset",
+      "budgetLow": 1186,
+      "budgetHigh": 1266,
+      "estimatedWeightTotal": 1703,
+      "parts": [
+        {
+          "component": "Frame",
+          "product": "LongTeng LTK266-D-SL T1100/T1000/M65 Size M (52cm)",
+          "source": "Alisa @ longtengalisa@163.com",
+          "estimatedWeight": 760,
+          "actualWeight": null,
+          "priceLow": 1001,
+          "priceHigh": 1001,
+          "actualPrice": 1001,
+          "status": "acquired",
+          "ordered": false,
+          "received": false,
+          "notes": "Confirmed deal - T47 BB, UDH hanger, max 35mm+ tire, 12x100/142 TA"
+        },
+        {
+          "component": "Fork",
+          "product": "Included with LTK266-D-SL",
+          "source": "Included",
+          "estimatedWeight": 325,
+          "actualWeight": null,
+          "priceLow": 0,
+          "priceHigh": 0,
+          "actualPrice": 0,
+          "status": "acquired",
+          "ordered": false,
+          "received": false,
+          "notes": "380mm axle-to-crown, 45mm offset, flat mount disc"
+        },
+        {
+          "component": "Seatpost",
+          "product": "Included with LTK266-D-SL",
+          "source": "Included",
+          "estimatedWeight": 98,
+          "actualWeight": null,
+          "priceLow": 0,
+          "priceHigh": 0,
+          "actualPrice": 0,
+          "status": "acquired",
+          "ordered": false,
+          "received": false,
+          "notes": "Carbon proprietary design"
+        },
+        {
+          "component": "Integrated Bar/Stem",
+          "product": "SP Cycle HB-05 100mm x 400mm T1000",
+          "source": "sp-cycle.com",
+          "estimatedWeight": 350,
+          "actualWeight": null,
+          "priceLow": 128,
+          "priceHigh": 180,
+          "actualPrice": 128,
+          "status": "acquired",
+          "ordered": false,
+          "received": false,
+          "notes": "T1000 carbon, 130mm drop, 75mm reach, full hidden cable routing, Di2 compatible. FSA No55R headset required"
+        },
+        {
+          "component": "Headset",
+          "product": "FSA No55R",
+          "source": "TBD",
+          "estimatedWeight": 60,
+          "actualWeight": null,
+          "priceLow": 50,
+          "priceHigh": 80,
+          "actualPrice": null,
+          "status": "needed",
+          "ordered": false,
+          "received": false,
+          "notes": "Not included with frame - need to buy separately"
+        },
+        {
+          "component": "Thru-Axles pair",
+          "product": "Optional +$25 USD",
+          "source": "LongTeng",
+          "estimatedWeight": 100,
+          "actualWeight": null,
+          "priceLow": 0,
+          "priceHigh": 35,
+          "actualPrice": null,
+          "status": "needed",
+          "ordered": false,
+          "received": false,
+          "notes": "12x100 front, 12x142 rear - can buy with frame"
+        },
+        {
+          "component": "Seatpost Clamp Cover",
+          "product": "TBD",
+          "source": "TBD",
+          "estimatedWeight": 10,
+          "actualWeight": null,
+          "priceLow": 0,
+          "priceHigh": 20,
+          "actualPrice": null,
+          "status": "needed",
+          "ordered": false,
+          "received": false,
+          "notes": "Cover for integrated seatpost clamp"
+        },
+        {
+          "component": "UDH Hanger",
+          "product": "Included",
+          "source": "Included",
+          "estimatedWeight": 10,
+          "actualWeight": null,
+          "priceLow": 0,
+          "priceHigh": 0,
+          "actualPrice": 0,
+          "status": "acquired",
+          "ordered": false,
+          "received": false,
+          "notes": "Universal Derailleur Hanger standard"
+        }
+      ]
+    },
+    {
+      "name": "Groupset",
+      "budgetLow": 1400,
+      "budgetHigh": 1400,
+      "estimatedWeightTotal": 2675,
+      "parts": [
+        {
+          "component": "Shift/Brake Levers",
+          "product": "Shimano Ultegra Di2 ST-R8170 pair",
+          "source": "FB Marketplace - Canberra pickup",
+          "estimatedWeight": 464,
+          "actualWeight": null,
+          "priceLow": 950,
+          "priceHigh": 950,
+          "actualPrice": 950,
+          "status": "acquired",
+          "ordered": false,
+          "received": false,
+          "notes": "Part of $950 Ultegra Di2 R8170 deal - wireless, hydraulic, 12-speed"
+        },
+        {
+          "component": "Rear Derailleur",
+          "product": "Shimano Ultegra Di2 RD-R8170",
+          "source": "FB Marketplace",
+          "estimatedWeight": 254,
+          "actualWeight": null,
+          "priceLow": 0,
+          "priceHigh": 0,
+          "actualPrice": 0,
+          "status": "acquired",
+          "ordered": false,
+          "received": false,
+          "notes": "Included in the $950 Ultegra Di2 R8170 bundle"
+        },
+        {
+          "component": "Front Derailleur",
+          "product": "Shimano Ultegra Di2 FD-R8170",
+          "source": "FB Marketplace",
+          "estimatedWeight": 132,
+          "actualWeight": null,
+          "priceLow": 0,
+          "priceHigh": 0,
+          "actualPrice": 0,
+          "status": "acquired",
+          "ordered": false,
+          "received": false,
+          "notes": "Included in the $950 Ultegra Di2 R8170 bundle"
+        },
+        {
+          "component": "Brake Calipers pair",
+          "product": "Shimano Ultegra Di2 BR-R8170",
+          "source": "FB Marketplace",
+          "estimatedWeight": 254,
+          "actualWeight": null,
+          "priceLow": 0,
+          "priceHigh": 0,
+          "actualPrice": 0,
+          "status": "acquired",
+          "ordered": false,
+          "received": false,
+          "notes": "Included in the $950 Ultegra Di2 R8170 bundle - flat mount hydraulic"
+        },
+        {
+          "component": "Cassette",
+          "product": "Shimano Ultegra CS-R8100 11-34T",
+          "source": "FB Marketplace",
+          "estimatedWeight": 291,
+          "actualWeight": null,
+          "priceLow": 0,
+          "priceHigh": 0,
+          "actualPrice": 0,
+          "status": "acquired",
+          "ordered": false,
+          "received": false,
+          "notes": "Included in the $950 deal - HG freehub, 12-speed"
+        },
+        {
+          "component": "Chain",
+          "product": "Shimano HG701 12-speed",
+          "source": "FB Marketplace",
+          "estimatedWeight": 257,
+          "actualWeight": null,
+          "priceLow": 0,
+          "priceHigh": 0,
+          "actualPrice": 0,
+          "status": "acquired",
+          "ordered": false,
+          "received": false,
+          "notes": "Included in the $950 deal"
+        },
+        {
+          "component": "Di2 Battery & Charger",
+          "product": "Shimano BT-DN300 + charger",
+          "source": "FB Marketplace",
+          "estimatedWeight": 125,
+          "actualWeight": null,
+          "priceLow": 0,
+          "priceHigh": 0,
+          "actualPrice": 0,
+          "status": "acquired",
+          "ordered": false,
+          "received": false,
+          "notes": "Internal mount, includes charging cable; included in the $950 bundle"
+        },
+        {
+          "component": "Di2 Wires & Hardware",
+          "product": "Junction boxes, wires, mounting hardware",
+          "source": "FB Marketplace",
+          "estimatedWeight": 100,
+          "actualWeight": null,
+          "priceLow": 0,
+          "priceHigh": 0,
+          "actualPrice": 0,
+          "status": "acquired",
+          "ordered": false,
+          "received": false,
+          "notes": "Included in the $950 deal"
+        },
+        {
+          "component": "Crankset + Power Meter",
+          "product": "Shimano Ultegra 8100 175mm + 4iiii Left PM",
+          "source": "FB Marketplace",
+          "estimatedWeight": 798,
+          "actualWeight": null,
+          "priceLow": 450,
+          "priceHigh": 450,
+          "actualPrice": 450,
+          "status": "acquired",
+          "ordered": false,
+          "received": false,
+          "notes": "Brand new - 4iiii left-side power meter, 40-50% off retail"
+        }
+      ]
+    },
+    {
+      "name": "Wheelset",
+      "budgetLow": 300,
+      "budgetHigh": 500,
+      "estimatedWeightTotal": 1450,
+      "parts": [
+        {
+          "component": "Carbon Disc Wheelset",
+          "product": "45-50mm depth, HG freehub (Shimano)",
+          "source": "FB Marketplace / AU retailer",
+          "estimatedWeight": 1450,
+          "actualWeight": null,
+          "priceLow": 300,
+          "priceHigh": 500,
+          "actualPrice": null,
+          "status": "needed",
+          "ordered": false,
+          "received": false,
+          "notes": "12x100/142 TA, MUST have HG freehub for Shimano cassette (NOT XDR)"
+        },
+        {
+          "component": "Rim Tape pair",
+          "product": "Tubeless tape",
+          "source": "Included or retailer",
+          "estimatedWeight": 20,
+          "actualWeight": null,
+          "priceLow": 0,
+          "priceHigh": 15,
+          "actualPrice": null,
+          "status": "needed",
+          "ordered": false,
+          "received": false,
+          "notes": "21mm internal width, usually pre-installed"
+        },
+        {
+          "component": "Tubeless Valves pair",
+          "product": "Alloy tubeless valves",
+          "source": "Included or retailer",
+          "estimatedWeight": 15,
+          "actualWeight": null,
+          "priceLow": 0,
+          "priceHigh": 20,
+          "actualPrice": null,
+          "status": "needed",
+          "ordered": false,
+          "received": false,
+          "notes": "Match rim drill"
+        }
+      ]
+    },
+    {
+      "name": "Rotors & BB",
+      "budgetLow": 180,
+      "budgetHigh": 280,
+      "estimatedWeightTotal": 360,
+      "parts": [
+        {
+          "component": "Front Rotor 160mm",
+          "product": "Shimano RT-CL800 / SRAM Centerline X",
+          "source": "AU retailer",
+          "estimatedWeight": 140,
+          "actualWeight": null,
+          "priceLow": 60,
+          "priceHigh": 90,
+          "actualPrice": null,
+          "status": "needed",
+          "ordered": false,
+          "received": false,
+          "notes": "Center Lock or 6-bolt - match hub type"
+        },
+        {
+          "component": "Rear Rotor 160mm",
+          "product": "Shimano RT-CL800 / SRAM Centerline X",
+          "source": "AU retailer",
+          "estimatedWeight": 140,
+          "actualWeight": null,
+          "priceLow": 60,
+          "priceHigh": 90,
+          "actualPrice": null,
+          "status": "needed",
+          "ordered": false,
+          "received": false,
+          "notes": "Center Lock or 6-bolt - match front rotor type"
+        },
+        {
+          "component": "T47 Bottom Bracket",
+          "product": "T47 to Shimano 24mm (for Ultegra crank)",
+          "source": "AU retailer",
+          "estimatedWeight": 80,
+          "actualWeight": null,
+          "priceLow": 60,
+          "priceHigh": 100,
+          "actualPrice": null,
+          "status": "needed",
+          "ordered": false,
+          "received": false,
+          "notes": "LongTeng frame has T47 BB - needs T47->24mm adapter"
+        }
+      ]
+    },
+    {
+      "name": "Finishing Kit",
+      "budgetLow": 50,
+      "budgetHigh": 200,
+      "estimatedWeightTotal": 410,
+      "parts": [
+        {
+          "component": "Bar Tape",
+          "product": "Supacaz / Lizard Skins",
+          "source": "AU retailer",
+          "estimatedWeight": 30,
+          "actualWeight": null,
+          "priceLow": 15,
+          "priceHigh": 30,
+          "actualPrice": null,
+          "status": "needed",
+          "ordered": false,
+          "received": false,
+          "notes": ""
+        },
+        {
+          "component": "Saddle",
+          "product": "TBD - try before buy",
+          "source": "FB Marketplace / retailer",
+          "estimatedWeight": 150,
+          "actualWeight": null,
+          "priceLow": 50,
+          "priceHigh": 150,
+          "actualPrice": null,
+          "status": "needed",
+          "ordered": false,
+          "received": false,
+          "notes": "Standard 7x7mm or 7x9mm rails"
+        },
+        {
+          "component": "Pedals",
+          "product": "Shimano 105 SPD-SL or match current",
+          "source": "FB Marketplace",
+          "estimatedWeight": 200,
+          "actualWeight": null,
+          "priceLow": 50,
+          "priceHigh": 200,
+          "actualPrice": null,
+          "status": "needed",
+          "ordered": false,
+          "received": false,
+          "notes": "Match Oscar's current shoe/cleat system"
+        },
+        {
+          "component": "Cleats",
+          "product": "Match pedals",
+          "source": "Included or retailer",
+          "estimatedWeight": 30,
+          "actualWeight": null,
+          "priceLow": 0,
+          "priceHigh": 30,
+          "actualPrice": null,
+          "status": "needed",
+          "ordered": false,
+          "received": false,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "Tires & Tubeless",
+      "budgetLow": 175,
+      "budgetHigh": 185,
+      "estimatedWeightTotal": 510,
+      "parts": [
+        {
+          "component": "Tires pair 28mm",
+          "product": "Conti GP5000 STR 28mm tubeless",
+          "source": "LordGun $79.92 each",
+          "estimatedWeight": 450,
+          "actualWeight": null,
+          "priceLow": 160,
+          "priceHigh": 160,
+          "actualPrice": null,
+          "status": "needed",
+          "ordered": false,
+          "received": false,
+          "notes": "28mm fits frame max 35mm tubeless ready"
+        },
+        {
+          "component": "Tubeless Sealant",
+          "product": "Stans NoTubes / Muc-Off 120ml",
+          "source": "Any retailer",
+          "estimatedWeight": 60,
+          "actualWeight": null,
+          "priceLow": 15,
+          "priceHigh": 25,
+          "actualPrice": null,
+          "status": "needed",
+          "ordered": false,
+          "received": false,
+          "notes": "~60ml per tire"
+        }
+      ]
+    },
+    {
+      "name": "Accessories",
+      "budgetLow": 10,
+      "budgetHigh": 15,
+      "estimatedWeightTotal": 0,
+      "parts": [
+        {
+          "component": "Carbon Assembly Paste",
+          "product": "FSA / Park Tool",
+          "source": "Any retailer",
+          "estimatedWeight": 20,
+          "actualWeight": null,
+          "priceLow": 10,
+          "priceHigh": 15,
+          "actualPrice": null,
+          "status": "needed",
+          "ordered": false,
+          "received": false,
+          "notes": "Essential for carbon parts"
+        }
+      ]
+    }
+  ],
+  "deals": []
+}

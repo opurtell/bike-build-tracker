@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0f9ba8" />
+    <title>Road Bike Build Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Custom road build</p>
+          <h1 id="page-title">🚴 Road Bike Build Tracker</h1>
+          <p id="page-subtitle" class="subtitle">LongTeng LTK266-D-SL | Size M 52cm</p>
+        </div>
+        <div class="hero-chip" aria-label="Build target">
+          <span>Target</span>
+          <strong>UCI-adjacent 6.8–7.7kg</strong>
+        </div>
+      </header>
+
+      <main>
+        <section id="summary" class="summary-grid" aria-label="Build summary">
+          <article class="card skeleton"></article>
+          <article class="card skeleton"></article>
+          <article class="card skeleton"></article>
+          <article class="card skeleton"></article>
+        </section>
+
+        <section class="panel" aria-labelledby="budget-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Money</p>
+              <h2 id="budget-title">Budget Tracker</h2>
+            </div>
+            <p id="budget-note" class="section-note"></p>
+          </div>
+          <div id="budget-tracker" class="tracker-list"></div>
+        </section>
+
+        <section class="panel" aria-labelledby="weight-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Grams</p>
+              <h2 id="weight-title">Weight Tracker</h2>
+            </div>
+            <p id="weight-note" class="section-note"></p>
+          </div>
+          <div id="weight-tracker" class="tracker-list"></div>
+        </section>
+
+        <section class="panel" aria-labelledby="parts-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Inventory</p>
+              <h2 id="parts-title">Parts List</h2>
+            </div>
+            <p class="section-note">Tap a row for source, notes, and exact numbers.</p>
+          </div>
+          <div id="parts-list" class="parts-list"></div>
+        </section>
+
+        <section class="panel" aria-labelledby="deals-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Daily scan</p>
+              <h2 id="deals-title">Deal History</h2>
+            </div>
+            <p class="section-note">Ready for the cron job to populate later.</p>
+          </div>
+          <div id="deal-history" class="deal-history"></div>
+        </section>
+      </main>
+
+      <footer>
+        <span>Built for Oscar’s LongTeng project.</span>
+        <span id="last-updated">Last updated: —</span>
+      </footer>
+    </div>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
