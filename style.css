@@ -232,14 +232,18 @@ footer {
   align-items: baseline;
   justify-content: space-between;
   gap: 12px;
+  min-width: 0;
 }
 
 .tracker-name {
   font-weight: 800;
+  flex-shrink: 0;
 }
 
 .tracker-meta {
-  white-space: nowrap;
+  white-space: normal;
+  text-align: right;
+  min-width: 0;
 }
 
 .range-bar {
